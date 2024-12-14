@@ -2,7 +2,7 @@ import styled, { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
   body {
-    background: center / cover url("./img/calendar_backdrop.jpeg");
+    background: center / cover url("/assets/calendar_backdrop.jpeg");
     margin: 0;
     height: 100vh;
   }
