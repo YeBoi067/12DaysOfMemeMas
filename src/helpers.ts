@@ -4,7 +4,7 @@
  * @param {Array} a - An array containing the items.
  */
 
-import image1 from '../img/1.png';
+import image1 from './img/1.png';
 
  const shuffle = (a: any[]) => {
   for (let i = a.length - 1; i > 0; i--) {
@@ -25,7 +25,7 @@ export type HatchType = {
 export const hatchArray: HatchType[] = [
   {
     nr: 1,
-    img: 'image1',
+    img: './img/1.png',
     text:
       'Coming soon...',
     open: false,
@@ -33,71 +33,71 @@ export const hatchArray: HatchType[] = [
   },
   {
     nr: 2,
-    img: 'image1',
+    img: './img/1.png',
     text:
       'Coming soon...',
     open: false
   },
   {
     nr: 3,
-    img: 'image1',
+    img: './img/1.png',
     text:
       "Coming soon...",
     open: false
   },
   {
     nr: 4,
-    img: 'image1',
+    img: './img/1.png',
     text:
       "Coming soon...",
     open: false
   },
   {
     nr: 5,
-    img: 'image1',
+    img: './img/1.png',
     text: 'Coming soon...',
     open: false
   },
   {
     nr: 6,
-    img: 'image1',
+    img: './img/1.png',
     text: 'Coming soon...',
     open: false
   },
   {
     nr: 7,
-    img: 'image1',
+    img: './img/1.png',
     text: 'Coming soon...',
     open: false
   },
   {
     nr: 8,
-    img: 'image1',
+    img: './img/1.png',
     text: 'Coming soon...',
     open: false
   },
   {
     nr: 9,
-    img: 'image1',
+    img: './img/1.png',
     text: "Coming soon...",
     open: false
   },
   {
     nr: 10,
-    img: 'image1',
+    img: '../img/1.png',
     text:
       'Coming soon...',
     open: false
   },
   {
     nr: 11,
-    img: 'image1',
+    img: '../img/1.png',
     text: "Coming soon...",
     open: false
   },
   {
     nr: 12,
-    img: 'image1',
+    img: '../img/1.png',
     text:
       "Coming soon...",
     open: false
