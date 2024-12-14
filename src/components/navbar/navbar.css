@@ -27,22 +27,21 @@
     margin-right: 1rem;
   }
 
-@media (max-width: 768px) {
+  @media (max-width: 414px) { /* iPhone width */
     .navbar {
-      padding-left: 1rem;
-      padding-right: 1rem;
+      padding: 0.5rem 1rem;
     }
   
     .navbar-brand {
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
   
     .navbar-brand img {
-      width: 60px;
-      height: 60px;
+      width: 40px;
+      height: 40px;
     }
   
     .bi {
-      font-size: 1.5rem;
+      font-size: 1.25rem;
     }
   }
