@@ -25,7 +25,7 @@ export type HatchType = {
 export const hatchArray: HatchType[] = [
   {
     nr: 1,
-    img: './img/1.png',
+    img: '/assets/1.png',
     text:
       'Coming soon...',
     open: false,
@@ -33,65 +33,65 @@ export const hatchArray: HatchType[] = [
   },
   {
     nr: 2,
-    img: './img/1.png',
+    img: '/assets/1.png',
     text:
       'Coming soon...',
     open: false
   },
   {
     nr: 3,
-    img: './img/1.png',
+    img: '/assets/1.png',
     text:
       "Coming soon...",
     open: false
   },
   {
     nr: 4,
-    img: './img/1.png',
+    img: '/assets/1.png',
     text:
       "Coming soon...",
     open: false
   },
   {
     nr: 5,
-    img: './img/1.png',
+    img: '/assets/1.png',
     text: 'Coming soon...',
     open: false
   },
   {
     nr: 6,
-    img: './img/1.png',
+    img: '/assets/1.png',
     text: 'Coming soon...',
     open: false
   },
   {
     nr: 7,
-    img: './img/1.png',
+    img: '/assets/1.png',
     text: 'Coming soon...',
     open: false
   },
   {
     nr: 8,
-    img: './img/1.png',
+    img: '/assets/1.png',
     text: 'Coming soon...',
     open: false
   },
   {
     nr: 9,
-    img: './img/1.png',
+    img: '/assets/1.png',
     text: "Coming soon...",
     open: false
   },
   {
     nr: 10,
-    img: '../img/1.png',
+    img: '/assets/1.png',
     text:
       'Coming soon...',
     open: false
   },
   {
     nr: 11,
-    img: '../img/1.png',
+    img: '/assets/1.png',
     text: "Coming soon...",
     open: false
   },
