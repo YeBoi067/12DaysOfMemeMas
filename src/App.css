@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'GreatVibes';
+    src: local('Lato'), url('./fonts/GreatVibes-Regular.ttf') format('truetype');
+}
+
+.navbar {
+    border-radius: 20px; /* Adjust the number to control roundness */
+    margin: 1rem; /* Adds space around the navbar */
+    padding: 1rem; /* Adds internal padding */
+    background-color: white; /* Makes the background visible */
+    border: 2px solid black; /* Adds a border if you want */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow */
+}
+
+
