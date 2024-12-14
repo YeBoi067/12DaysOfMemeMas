@@ -3,18 +3,46 @@
     src: local('Lato'), url('../../fonts/GreatVibes-Regular.ttf') format('truetype');
   }
 
-.navbar{
+  .navbar {
     padding-left: 2rem;
     padding-right: 2rem;
-    
-}
-
-.bi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .bi {
     color: black;
     font-size: 2rem;
-}
-
-.navbar-brand{
+  }
+  
+  .navbar-brand {
     font-family: 'GreatVibes';
     font-size: 3rem;
-}
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand img {
+    margin-right: 1rem;
+  }
+
+@media (max-width: 768px) {
+    .navbar {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  
+    .navbar-brand {
+      font-size: 2.5rem;
+    }
+  
+    .navbar-brand img {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .bi {
+      font-size: 1.5rem;
+    }
+  }
