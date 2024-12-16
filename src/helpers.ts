@@ -35,7 +35,7 @@ export const hatchArray: HatchType[] = [
     nr: 2,
     img: '/assets/1.png',
     text:
-      'Coming soon...',
+      'CHUNGZ',
     open: false,
     link : "https://pump.fun/coin/54JSCARBM3CcYcyiNdfpYbgmu4tUXQvBHkNkojiLpump"
   },
